@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rc9XOp8tZQ6KF5I1rKBR5SE1vHiCm0KSv0cIpjAWi+VjIa3mbGtDvV2ZMUCj2diVI5GuCcBDBn7zlvO1IDVh6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\merturk\\source\\repos\\DataAnnotationLocalization\\DataAnnotationLocalization.WebUI\\DataAnnotationLocalization.WebUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\merturk\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\6.0.5\\microsoft.extensions.localization.abstractions.6.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

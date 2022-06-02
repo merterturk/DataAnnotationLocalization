@@ -1,0 +1,36 @@
+﻿@model Product
+
+
+<form asp-action="Add" asp-controller="Product" method="post">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label asp-for="Id"></label>
+                <input asp-for="Id" class="form-control" type="text" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name"  class="form-control" type="text" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label asp-for="CategoryId" ></label>
+                <input asp-for="CategoryId"  class="form-control" type="text" />
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary mt-2" type="submit">Ekle</button>
+</div>
+</form>
+
